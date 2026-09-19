@@ -160,4 +160,4 @@ Windows 10 / 11 (64-bit). No Python required.
 
 ## 📄 License
 
-MIT
+GPL-3.0
