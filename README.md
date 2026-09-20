@@ -158,6 +158,16 @@ Windows 10 / 11 (64-bit). No Python required.
 
 ---
 
-## 📄 License
+## License
 
-GPL-3.0
+GNU General Public License v3.0 (GPL-3.0)
+
+## Third-Party Components
+
+This project uses the following third-party components:
+
+| Component | License | Usage |
+|-----------|---------|-------|
+| PyQt5 | GPL v3 | GUI framework |
+
+PyQt5 is copyright (c) Riverbank Computing Limited.
