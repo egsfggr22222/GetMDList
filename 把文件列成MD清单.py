@@ -59,6 +59,33 @@ TEXT_EXTENSIONS = {
     '.mk', '.cmake', '.ninja', '.gradle',
     '.sip',
 }
+
+# ★ 在这里追加补充项
+TEXT_EXTENSIONS.update({
+    # Windows 脚本 / 系统
+    '.bat', '.cmd', '.vbs', '.vbe', '.wsf', '.wsh',
+    '.reg', '.inf', '.scf', '.jse',
+    # 编译型语言补充
+    '.asm', '.s', '.f', '.f77', '.f90', '.f95', '.f03', '.for', '.ftn',
+    '.pas', '.pp', '.p', '.inc', '.d', '.di', '.zig', '.zon',
+    '.svh', '.m', '.mm', '.swift', '.cs', '.csx', '.vb',
+    '.rs', '.rlib', '.hs', '.lhs', '.fsscript',
+    # 脚本 / 动态语言补充
+    '.rbx', '.rjs', '.gemspec', '.rake', '.rakefile',
+    '.php3', '.php4', '.php5', '.phtml', '.ctp',
+    '.pyi', '.rpy', '.cpy', '.gyp', '.gypi',
+    '.wlua', '.coffee', '.rhistory', '.rprofile', '.rt',
+    '.nimble', '.clj', '.cljs', '.cljc', '.edn',
+    '.ss', '.sch', '.dats', '.sats', '.hats',
+    # 硬件描述补充
+    '.vams',
+    # 构建 / 工程
+    '.mak', '.bazel', '.bzl', '.buck', '.tf', '.tfvars', '.hcl', '.proto',
+    # 其他纯文本
+    '.asc', '.asciidoc', '.adoc', '.rest', '.diff', '.patch',
+    '.mbox', '.eml', '.msg', '.svg', '.ipynb',
+    '.cql', '.cypher', '.graphql', '.gql', '.nsi', '.nsh', '.bicep',
+})
 TEXT_FILENAMES = {'makefile', 'dockerfile', 'jenkinsfile', 'vagrantfile',
                   'rakefile', 'gemfile', 'procfile', 'brewfile'}
 
